@@ -1,6 +1,6 @@
-package utils;
+package com.example.utils;
 
-import data.repository.UserRepository;
+import com.example.data.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

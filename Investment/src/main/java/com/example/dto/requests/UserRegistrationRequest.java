@@ -1,4 +1,4 @@
-package dto.requests;
+package com.example.dto.requests;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

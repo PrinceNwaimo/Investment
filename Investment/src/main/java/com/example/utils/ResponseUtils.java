@@ -1,4 +1,4 @@
-package utils;
+package com.example.utils;
 
 public class ResponseUtils {
     public static final String AGENT_REGISTRATION_SUCCESSFUL = "Agent Registration Successful";

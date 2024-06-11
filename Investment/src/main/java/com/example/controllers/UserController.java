@@ -1,13 +1,13 @@
-package controllers;
+package com.example.controllers;
 
-import dto.requests.UserRegistrationRequest;
-import dto.responses.UserRegistrationResponse;
+import com.example.dto.requests.UserRegistrationRequest;
+import com.example.dto.responses.UserRegistrationResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import services.UserService;
+import com.example.services.UserService;
 
 
 

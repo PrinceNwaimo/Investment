@@ -1,4 +1,4 @@
-package configuration;
+package com.example.configuration;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,11 +6,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import utils.JwtUtils;
+import com.example.utils.JwtUtils;
 
 
 
-import static utils.AppUtils.JWT_SIGNING_SECRET;
+import static com.example.utils.AppUtils.JWT_SIGNING_SECRET;
 @Configuration
 public class BeanConfiguration {
     @Value(JWT_SIGNING_SECRET)

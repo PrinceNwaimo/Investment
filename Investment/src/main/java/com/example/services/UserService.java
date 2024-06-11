@@ -1,8 +1,7 @@
-package services;
+package com.example.services;
 
-import dto.requests.UserRegistrationRequest;
-import dto.responses.UserRegistrationResponse;
-import org.springframework.stereotype.Service;
+import com.example.dto.requests.UserRegistrationRequest;
+import com.example.dto.responses.UserRegistrationResponse;
 
 
 public interface UserService {

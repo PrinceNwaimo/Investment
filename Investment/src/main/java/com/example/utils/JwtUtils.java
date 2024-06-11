@@ -1,4 +1,4 @@
-package utils;
+package com.example.utils;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -9,7 +9,7 @@ import lombok.Getter;
 
 import java.util.Map;
 
-import static utils.AppUtils.CLAIMS_VALUE;
+import static com.example.utils.AppUtils.CLAIMS_VALUE;
 @AllArgsConstructor
 @Getter
 public class JwtUtils {

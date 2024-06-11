@@ -1,8 +1,8 @@
-package services;
-import data.model.User;
-import data.repository.UserRepository;
-import dto.requests.UserRegistrationRequest;
-import dto.responses.UserRegistrationResponse;
+package com.example.services;
+import com.example.data.model.User;
+import com.example.data.repository.UserRepository;
+import com.example.dto.requests.UserRegistrationRequest;
+import com.example.dto.responses.UserRegistrationResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
